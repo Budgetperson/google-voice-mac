@@ -1,0 +1,7 @@
+Eventually, this will turn in to a Google Voice menubar app for mac. Right now it's a basic hello world deal.
+
+To run, download Atom Shell for Mac and run it. It will display an example command. Copy that command (without the example app directory part). Replace the atom path in the makefile with that directory. Then, type `make run` into the command line and the app should run.
+
+If it still doesn't work, remove the voice.js dependency in main.js, since I'm not using it yet.
+
+Only tested for Mac.
